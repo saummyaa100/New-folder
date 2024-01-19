@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<!-- <style>
+    h1{
+       text-align:center;
+       font-style: normal;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size:40px;
+    }
+    body{
+        
+        background-color:white;
+        padding:25px 25px 25px 25px; 
+        border-radius: 4px;
+        margin:5px;
+        margin-top: 0px;
+        padding-left:0px;
+        padding-top:0px;
+    }
+    form{
+        margin : 0px 258px;
+        padding:0px 0px;
+        font-family:'Times New Roman', Times, serif;
+        border: 6px solid rgb(12, 12, 12);
+        border-radius:5px;
+        font-size: 20px;
+        margin-top:25px;
+        height:100%;
+        width:50%;
+        margin-left:500px
+    }
+    input[type="text"],input[type="number"],input[type="email"],input[type="password"],textarea{
+        width:100%;
+        height:35px;
+        border:3px solid rgb(195, 192, 192);
+        margin:10px -10px;
+        border-radius: 5px;
+        padding:8px;
+    }
+    .inputs{
+        margin:14px 24px;
+        border-radius: 5px; 
+    }
+   .gender,input[type="date"]{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    input[type="submit"]{
+        /* width:100%; */
+        color:white;
+        background-color:rgb(85, 85, 230);
+        cursor:pointer;
+        border:2px solid rgb(75, 71, 71);
+        padding:10px 10px;
+        font-size: large;
+        margin-top: 0px;
+        margin-bottom:15px;
+        border-radius: 20px;
+        align-items: center;
+        margin-left:32%;
+    }
+    input[type="submit"]:hover{
+        background-color:white;
+        box-shadow: 50px grey;
+        color:rgb(85, 85, 230);
+        font-weight: bold;
+    }
+    input[type="submit"]{
+        padding:15px;
+    }
+    h2{
+        text-align: center;
+    }
+    .header{
+        background-color: rgb(85, 85, 230);
+        padding-top:27px;
+        padding-bottom:30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color:white;
+        font-family: 'Salsa', cursive;;
+    }
+    .sidebar{
+        position:fixed;
+        width:350px;
+        margin-right:0px;
+    }
+</style> -->
+</head>
+<body>
+    <div class="body">
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <li><a href="./">Home</a></li>
+            <li><a href="./intro.html">Intro</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="contactform">
+            <form ><div class="header">
+                <h1>Contact Form</h1>
+                <h2 >Kindly enter the following details:</h2>
+            </div>
+                 <hr>
+                 <div class="inputs"> 
+                <p>(Note that * marked fields are mandatory)</p>
+                <br>
+                <label for="emaill">Email Address: *</label>
+                <input type="email" id="emaill" overflow:scroll required>
+                <label for="passwordd">Password: *</label>
+                <div>
+                <input type="password" id="passwordd" required>
+            </div>
+                <p>Name: *<input type="text" required>  </p>
+                <p>Country: <textarea cols="30" rows="5"></textarea></p>
+                <P>Contact Number: *<input type="number" required></P>
+                <p>Query/Message: <textarea placeholder="Is there any way i can help you" rows="6" cols="100%"></textarea></p>
+</div>  
+               <input type="submit" value="SUBMIT FORM" class="submit">
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
